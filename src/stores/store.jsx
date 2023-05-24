@@ -1,6 +1,5 @@
 import { action, makeObservable, observable } from 'mobx';
-const { ACCESS_KEY_UNSPLASH } = process.env;
-console.log(ACCESS_KEY_UNSPLASH);
+
 class PostsStore {
   posts = [];
   page = 1;
